@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Crevolution Robotics</title>
+  <head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <meta charset="UTF8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="assets/img/Carousel/C_logo.png"
+      type="image/png"
+      sizes="16x16" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+      type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+
+    <!-- NAV BAR Also change expand md to lg later-->
+
+    <nav id="navspan" class="navbar fixed-top navbar-expand-md navbar-dark">
+      <a href="index.html#home" class="navbar-brand lg-0" style="height: 40px"><img
+          class="d-inline-block align-top"
+          src="assets/img/Crevo19o5.svg"
+          width="170"
+          style="padding-left: 15px" />
+      </a>
+      <button
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        class="navbar-toggler"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a href="index.html#home" class="nav-link active"> HOME </a>
+          </li>
+          <li class="nav-item active">
+            <a href="index.html#about" class="nav-link active"> ABOUT US </a>
+          </li>
+          <li class="nav-item active">
+            <a href="index.html#current_events" class="nav-link active">
+              CURRENT EVENTS
+            </a>
+          </li>
+
+          <li class="nav-item active">
+            <a href="index.html#contact_us" class="nav-link active"> CONTACT US </a>
+          </li>
+          <li class="nav-item active">
+            <a href="robots.html" class="nav-link active"> ROBOTS </a>
+          </li>
+          <li class="nav-item active">
+            <a href="sponsors.html" class="nav-link active"> SPONSORS </a>
+          </li>
+          <!--
+						<li class="nav-item active">
+						<a href="page2.html" class="nav-link active"> BLOGS </a>
+					</li>
+                    -->
+          <li class="nav-item active">
+            <a target="_blank" rel="noopener noreferrer"
+              href="https://www.paypal.com/donate?hosted_button_id=S5B7QQBYTB4BY"
+              class="nav-link active">
+              DONATE
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- PIX CAROUSEL -->
+    <div id="home" class="container-fluid text-center bg-2">
+      <div id="carouselExampleInterval" class="carousel slide"
+        data-bs-ride="carousel">
+        <div
+          class="carousel-inner"
+          style="height: 47vw; width: 100vw; margin-top: 60px">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img
+              src="./assets/img/crevoheader.svg"
+              style="object-fit: cover"
+              class="d-block w-100"
+              alt="Crevolution Logo" />
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="./assets/img/Carousel/2023tp.JPG"
+              style="object-fit: cover"
+              class="d-block w-100"
+              alt="Crev Team Image" />
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="./assets/img/Carousel/2022tp1.jpg"
+              style="object-fit: cover"
+              class="d-block w-100"
+              alt="Crev Team Image" />
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="./assets/img/Carousel/2019TP33.png"
+              style="object-fit: cover"
+              class="d-block w-100"
+              alt="Crev Team Image" />
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="./assets/img/Carousel/TeamPic1.jpg"
+              style="object-fit: cover"
+              class="d-block w-100"
+              alt="Crev Team Image" />
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="./assets/img/Carousel/TeamPic2.jpg"
+              style="object-fit: cover"
+              class="d-block w-100"
+              alt="Crev Team Image" />
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="./assets/img/Carousel/sponsors.png"
+              style="object-fit: cover"
+              class="d-block w-100"
+              alt="Sponsors Image" />
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button"
+          data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- ABOUT US -->
+    <div id="about" class="container-fluid text-center bg-2">
+      <h3 class="aboutus_title">ABOUT US</h3>
+      <p class="textcolor textitalic aboutus_desc">
+        Crevolution is a robotics team from Sterling Heights, Michigan, that is
+        composed of students from the Utica Community Schools District. Each
+        year, we build a robot to compete in a game designed by the FIRST
+        organization, and have a lot of fun doing so.
+      </p>
+      <br />
+      <ul class="aligntext">
+        <li class="textspacer">
+          Crevolution is a robotics team from Sterling Heights, Michigan
+        </li>
+        <li class="textspacer">
+          We are a part of the
+          <a href="http://www.usfirst.org" target="_blank">FIRST</a>
+          organization
+        </li>
+        <li class="textspacer">
+          Our team consists of students from Utica Community Schools
+        </li>
+        <li class="textspacer">We were founded in 2008</li>
+        <li class="textspacer">
+          Our sister team is the
+          <a href="http://www.thunderchickens.org" target="_blank">Thunderchickens</a>
+        </li>
+        <li class="textspacer">
+          Our team focuses on being student-run and getting students heavily
+          involved in every aspect of the team
+        </li>
+        <li class="textspacer">
+          Crevolution receives a great deal of generous support from our local
+          business sponsors
+        </li>
+        <li class="textspacer">
+          Our name means &quot;A Creative Revolution&quot; and we try to live
+          this revolutionary spirit by changing the world into one that respects
+          science and technology
+        </li>
+        <li class="textspacer">
+          We have also helped multiple teams in the area get started. These
+          teams are all younger kids trying to learn more about how everything
+          works and are curious in the various fields that it all applies to so
+          that it gives them a head start for the real world
+        </li>
+        <li class="textspacer">
+          Crevolution Robotics is always looking for new members. We give
+          students the opportunity to gain new skills and be a part of a team.
+          If you're interested please send an email to
+          <a href="mailto:crevo.robotics@gmail.com">crevo.robotics@gmail.com</a>
+        </li>
+      </ul>
+      <br>
+      <h2 class="textcolor">ABOUT THE SUB-TEAMS</h2>
+      <br>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsezero"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo">
+                  Team Captain
+                </button>
+              </h2>
+              <div
+                id="collapsezero"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Team Captain: Adeline Paul</p>
+                  <p>The team captain is responsible for:</p>
+                  <ul>
+                    <li>Bridging communication between subteams</li>
+                    <li>Encouraging collaboration between members</li>
+                    <li>Maintaining schedule for training and build season</li>
+                    <li>Communications to families and community</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne">
+                  Build
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Build Lead: Niken Patel</p>
+                  <p>During build season, Build is responsible for:</p>
+                  <ul>
+                    <li>Prototyping</li>
+                    <li>Building schematics from Design</li>
+                    <li>Building the practice field</li>
+                    <li>Taking care of our trailer</li>
+                  </ul>
+                  <p>During off season, Build is responsible for:</p>
+                  <ul>
+                    <li>
+                      Training new members |
+                      <a
+                        href="https://1drv.ms/w/s!AkiWqYAnVfDshTfr2b4USNXJFmC8"
+                        target="_blank">Crevolution Build Syllabus</a>
+                    </li>
+                    <li>Prototyping</li>
+                    <li>Working on other projects like our pit cart</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo">
+                  Design
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Design Lead: Colin Deal</p>
+                  <p>During build season, Design is responsible for:</p>
+                  <ul>
+                    <li>Making schematics for Build</li>
+                  </ul>
+                  <p>During off season, Design is responsible for:</p>
+                  <ul>
+                    <li>Training new members with CAD</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree">
+                  Systems & Controls
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Systems & Controls Lead: Nick Tornopilsky</p>
+                  <p>
+                    During build season, Systems & Controls is responsable for:
+                  </p>
+                  <ul>
+                    <li>Organizing and wiring the robot</li>
+                  </ul>
+                  <p>
+                    During off season, Systems & Controls is responsible for:
+                  </p>
+                  <ul>
+                    <li>Training new members</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour">
+                  Business
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Business Lead: Fynn Stover</p>
+                  <p>During build season, Business is responsible for:</p>
+                  <ul>
+                    <li>Writing up essays</li>
+                    <li>Recording the documentations</li>
+                  </ul>
+                  <p>During off season, Business is responsible for:</p>
+                  <ul>
+                    <li>Training new members</li>
+                    <li>Updating the roster</li>
+                    <li>Trying new PR projects</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+          <div class="accordion" id="accordionExample2">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive">
+                  Marketing
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample2">
+                <div class="accordion-body">
+                  <p>Marketing Lead: Cole Kosecki</p>
+                  <p>During build season, Marketing is responsible for:</p>
+                  <ul>
+                    <li>Vectorizing sponsorship logos</li>
+                    <li>Designing Crevolution t-shirts</li>
+                    <li>Creating the robot logo</li>
+                  </ul>
+                  <p>During off season, Marketing is responsible for:</p>
+                  <ul>
+                    <li>
+                      Training new members to vectorize and digital design
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix">
+                  Outreach
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample2">
+                <div class="accordion-body">
+                  <p>Outreach Lead: Anthony Le</p>
+                  <p>During build season, Outreach is responsible for:</p>
+                  <ul>
+                    <li>Working on the Chairmans Award</li>
+                    <li>Planning community events</li>
+                    <li>Overseeing external communications</li>
+                  </ul>
+                  <p>During off season, Outreach is responsible for:</p>
+                  <ul>
+                    <li>
+                      Training new members in planning events and working with
+                      professional businesses or organizations
+                    </li>
+                    <li>Planning more events</li>
+                    <li>Working on new PR projects</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="collapseSeven">
+                  Robot Programming
+                </button>
+              </h2>
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample2">
+                <div class="accordion-body">
+                  <p>Robot Programming Lead: Edward Lei</p>
+                  <p>
+                    During build season, Robot Programming is responsible for:
+                  </p>
+                  <ul>
+                    <li>
+                      Programming the robot to manuver with our drivers and
+                      during autonomous periods
+                    </li>
+                    <li>Programming the robot to drive smoothly</li>
+                  </ul>
+                  <p>
+                    During off season, Robot Programming is responsible for:
+                  </p>
+                  <ul>
+                    <li>
+                      Training new members how to write basic code and program
+                      the robot's movements
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseapp"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo">
+                  App Development
+                </button>
+              </h2>
+              <div
+                id="collapseapp"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample2">
+                <div class="accordion-body">
+                  <p>App Development Lead: Ava Mortimore</p>
+                  <p>
+                    During build season, App Development is responsible for:
+                  </p>
+                  <ul>
+                    <li>Editing the app to match this year's game</li>
+                  </ul>
+                  <p>During off season, App Development is responsible for:</p>
+                  <ul>
+                    <li>Teaching new members how to program apps</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight"
+                  aria-expanded="false"
+                  aria-controls="collapseEight">
+                  Website Development
+                </button>
+              </h2>
+              <div
+                id="collapseEight"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample2">
+                <div class="accordion-body">
+                  <p>Website Development Lead: Katelyn Hermiz</p>
+                  <p>
+                    During build season, Website Development is responsible for:
+                  </p>
+                  <ul>
+                    <li>Updating our sponsor list</li>
+                    <li>
+                      Programming the website to run smoother and look better
+                    </li>
+                    <li>Keeping up with current events</li>
+                  </ul>
+                  <p>
+                    During off season, Website Development is responsible for:
+                  </p>
+                  <ul>
+                    <li>
+                      Teaching new members the basics of HTML, CSS, and
+                      Javascript with constant practice on different aspects of
+                      the website
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <script>
+      var coll = document.getElementsByClassName("collapsibleSub");
+      var i;
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("activeSub");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+          if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+
+    <!-- Current Events -->
+    <script>
+      var ResultTime;
+      var EventNumber;
+      function LaunchTime(EventNumber) {
+        EventNumber = EventNumber - 1;
+        var countDownDateArr = [
+          new Date("January 6, 2024 11:00:00").getTime(),
+          new Date("March 30, 2023 9:00:00").getTime(),
+        ];
+        var countDownDate = countDownDateArr[EventNumber];
+        var VarStringId = ["TimeTest", "TimeTest2", "TimeTest3", "TimeTest4"];
+        setInterval(function () {
+          var now = new Date().getTime();
+          var distance = countDownDate - now;
+          if (distance > 0) {
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor(
+              (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+            var minutes = Math.floor(
+              (distance % (1000 * 60 * 60)) / (1000 * 60)
+            );
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById(VarStringId[EventNumber]).innerHTML =
+              days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+          } else {
+            document.getElementById(VarStringId[EventNumber]).innerHTML =
+              0 + "d " + 0 + "h " + 0 + "m " + 0 - +"s ";
+          }
+        }, 1000);
+      }
+    </script>
+
+    <div id="current_events" class="bg-1">
+      <div class="container-fluid">
+        <div class="row text-center textcolor">
+          <h3 class="textcolor">CURRENT EVENTS</h3>
+         <!-- <p class="textcolor">
+            <em>We have no upcoming competitions currently but check back
+              soon!</em>
+          </p> -->
+          <p>Countdown Until Kickoff on January 6:</p> 
+						<h1 id="TimeTest"></p><script> LaunchTime(1); </script></h1> 
+          <!-- <p>Countdown Until Our 2nd Competition on March 30th at Troy Athens Highschool:</p> -->
+          <!--<p>Countdown Until Our 2nd Competition on March 30th at Troy Athens Highschool:</p>
+						<h1 id="TimeTest2"></p><script> LaunchTime(2); </script></h1> -->
+          <div class="col-sm-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <div id='calendar'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        const calendarEl = document.getElementById('calendar')
+        const calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth',
+          height: 600,
+          events: [
+        {
+          title: 'Kickoff',
+          start: '2024-01-06'
+        },{
+          title: 'Woodhaven Competition',
+          start: '2024-03-09',
+          end: '2024-03-11'
+        },{
+          title: 'Troy #1 Competition',
+          start: '2024-03-23',
+          end: '2024-03-25'
+        }
+        
+        ]})
+        calendar.render()
+      })
+
+    </script>
+
+    <!-- SOCIAL MEDIA -->
+
+    <!-- CONTACT US (Part of Social Media)-->
+    <div id="contact" class="bg-1">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <iframe style="width: 90%;"
+              height="500px"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11751.750825341845!2d-83.00706247141359!3d42.577844666763085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824dc03e633b625%3A0x9265e23bf27a94ab!2sCrevolution%20Robotics%20FIRST%20Team%202851%20Build%20Site!5e0!3m2!1sen!2sus!4v1677542984717!5m2!1sen!2sus"></iframe>
+          </div>
+          <br />
+          <p class="textcolor text-center">
+            Our build site is located at 38397 Gladstone Drive, Sterling
+            Heights, MI 48312
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div id="contact_us" class="bg-1">
+        <div class="container-fluid">
+          <br />
+          <div class="row">
+            <div class="col-md-3 ">
+              <a href="#home" class style="height: 40px"><img
+                  class="bottomLogo "
+                  src="assets/img/Carousel/C_logo.png" /></a>
+            </div>
+            <div class="col-md-6  text-center">
+              <p class="textcolor slogon">
+                "The Next Creative Revolution"
+              </p>
+              <p class="textcolor">
+                For any comments or questions that concern Crevolution,
+              </p>
+              <p class="textcolor">please
+                contact us at
+                <a href="mailto:crevo.robotics@gmail.com">crevo.robotics@gmail.com</a></p>
+
+            </div>
+            <div class="col-md-3 text-center">
+              <a class="bottomA" target="_blank" rel="noopener noreferrer"
+                href="https://instagram.com/crevolution.robotics?utm_source=ig_profile_share&igshid=jjtwtzz6dwv7"><img
+                  class="bottomPR" src="assets/img/Social Media/Instagram.png"></a>
+              <a class="bottomA" target="_blank" rel="noopener noreferrer"
+                href="https://www.youtube.com/user/Crevolution2851">
+                <img class="bottomPR" src="assets/img/Social Media/Youtube.png">
+              </a>
+              <br>
+              <br>
+              <a class="bottomA" target="_blank" rel="noopener noreferrer"
+                href="https://www.facebook.com/Crevolution2851/"><img
+                  class="bottomPR" src="assets/img/Social Media/Facebook.png"></a>
+              <a class="bottomA" target="_blank" rel="noopener noreferrer"
+                href="https://twitter.com/Crevolution2851">
+                <img class="bottomPR" src="assets/img/Social Media/Twitter.png">
+              </a>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      $(document).ready(function () {
+        // Initialize Tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              900,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+  </body>
+</html>
