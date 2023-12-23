@@ -2,7 +2,6 @@
 <!--
 BUGS or problems to do after uploading new website
 
-    - Make custom calender using js etc.
     - Fixe drop down corners on moblie by using css options.
     - Fix moblie bottom nav bar with bootstrap hiding
     - Fix Nav bar in moblie

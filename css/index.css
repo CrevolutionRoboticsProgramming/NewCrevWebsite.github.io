@@ -79,6 +79,12 @@ nav {
   width: 167px;
   margin: 0px 0px 0px 30%;
 }
+.bottomLogom {
+  width: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .bottomPR {
   width: 70px;
 }
