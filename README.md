@@ -2,8 +2,7 @@
 <!--
 BUGS or problems to do after uploading new website
 
-    - Fixe drop down corners on moblie by using css options.
-    - Fix moblie bottom nav bar with bootstrap hiding
+    - Fix drop down corners on moblie by using css options.
     - Fix Nav bar in moblie
     - Fix Top photos
     - Nav bar hyperlink not across full bar

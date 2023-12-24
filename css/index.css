@@ -62,8 +62,7 @@ nav {
   padding: 0px 0px 0px 0px;
 }
 .nav-item {
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding: 11px 0 11px 0;
 }
 
 
@@ -160,7 +159,20 @@ li {
   text-decoration: none;
   color: #fff;
 }
-
-
+.mailform{
+  padding: 0 0 0 10%;
+}
+.mailform button:hover{
+  background-color: #c3a234 !important;
+}
+.mailform button{
+  background-color: #222227;
+  margin: 5px 0 20px 0;
+  border-color: #dadada;
+  border-width: 2px;
+}
+iframe{
+  border-radius: 5px;
+}
 
 
