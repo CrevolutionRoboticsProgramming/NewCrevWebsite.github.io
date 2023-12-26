@@ -2,10 +2,14 @@
 <!--
 BUGS or problems to do after uploading new website
 
-    - Fix drop down corners on moblie by using css options.
+    - Fix drop down corners on leads part on moblie by using css options.
     - Fix Nav bar in moblie
     - Fix Top photos
-    - Nav bar hyperlink not across full bar
+    - Fix Robot tab in mobile
+    - Update contact css
+    - Update mobile calender css
+    - Add past robots
+    - Add sponsors
     - Have Nav bar color when at sections
     - ^Maybe add small bar or smt under the text at nav^ 
 
