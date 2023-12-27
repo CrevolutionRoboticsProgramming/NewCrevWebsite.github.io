@@ -71,7 +71,7 @@ nav {
   margin-bottom: 11px;
 }
 
-#contact_us {
+.bottomnav {
   background-color: #1f1f2e;
 }
 .bottomLogo {
@@ -160,7 +160,7 @@ li {
   color: #fff;
 }
 .mailform{
-  padding: 0 0 0 10%;
+  padding: 0 10% 0 10%;
 }
 .mailform button:hover{
   background-color: #c3a234 !important;
