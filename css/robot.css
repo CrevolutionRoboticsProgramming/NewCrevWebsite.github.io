@@ -97,10 +97,7 @@ nav {
 
 /*------------------------------------------------------------------*/
 
-button{
- width:10%;
 
-}
 .leftpart{
     padding:  0 0 0 150px;
 }
@@ -114,18 +111,10 @@ iframe{
   background-color: #222227;
         
 }
-.carouselpic{        
-    height: 315px;
-}
-.carousel-inner{
-    border-radius: 15px;
-    
-}
+
 .sideimage{
   height: 315px;
   border-radius: 15px;
   
 }
-.carouselimage{
-  object-fit: contain;
-}
+
