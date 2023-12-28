@@ -99,22 +99,32 @@ nav {
 
 
 .leftpart{
-    padding:  0 0 0 150px;
+    padding:  0 30px 0 8%;
 }
 .rightpart{
-    padding: 0 100px 0 0 ;
+    padding: 0 8% 0 0 ;
 }
 iframe{
     border-radius: 15px;
 }
-.carousel{
+.siema{
   background-color: #222227;
-        
+  padding: 20px 0 20px 0;      
 }
-
-.sideimage{
+.imagerow{
   height: 315px;
-  border-radius: 15px;
-  
+  padding: 3vh 0 0 0; 
 }
-
+.sideimage{  
+  border-radius: 15px;
+  max-width: 100%;
+  max-height: 315px;
+}
+.prev{
+  padding: 400px 0 0 0;   
+  width: 8%;   
+}
+.next{
+  padding: 400px 0 0 0;   
+  width: 8%;    
+}

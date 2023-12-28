@@ -101,7 +101,7 @@
             <div class="siema">
                 <div>
                     <div class="row">
-                        <div class="col-md-6 leftpart">
+                        <div class="col-md-5 leftpart">
                             <h1> 2023: MaysOverTone</h1>
                             <br>
                             <h3>Quick Facts:</h3>
@@ -128,15 +128,25 @@
                                     levels.</li>
                             </ul>
                         </div>
-                        <div class="col-md-6 rightpart">
-                            <div class="row">
-                                <div class="col-md-6">
+                        <div class="col-md-7 rightpart">
+                            <div class="row imagerow text-center">
+                                <div class="col-md-6 ">
                                     <img
                                         src="assets/img/Robots/2023-1.jpg"
                                         class="d-block sideimage "
                                         alt="Robot">
                                 </div>
                                 <div class="col-md-6 ">
+                                    <div class="innersiema1">
+                                        <div><img
+                                                src="assets/img/Robots/2023-2.jpg"
+                                                class="d-block sideimage "
+                                                alt="Robot"></div>
+                                        <div><img
+                                                src="assets/img/Robots/2023-3.png"
+                                                class="d-block sideimage "
+                                                alt="Robot"></div>
+                                    </div>
 
                                 </div>
                             </div>
@@ -163,21 +173,22 @@
                         alt="Siema image" /></div>
             </div>
             <button class="carousel-control-prev prev" type="button"
-                data-bs-target="#carouselExample" data-bs-slide="prev">
+                data-bs-target="#carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon"
                     aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next next" type="button"
-                data-bs-target="#carouselExample" data-bs-slide="next">
+                data-bs-target="#carousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon"
                     aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-                <script src="siema.min.js"></script>
-                <script>
+            </button>
+            <script src="siema.min.js"></script>
+            <script>
                     const mySiema = new Siema({
-                        duration: 500,
-                        easing: 'ease-out',
+                        duration: 1000,
+                        easing: 'cubic-bezier(.5,0,.5,1)',
                         loop: true,
                     });
                     const prev = document.querySelector('.prev');
@@ -186,75 +197,87 @@
                     prev.addEventListener('click', () => mySiema.prev(1));
                     next.addEventListener('click', () => mySiema.next(1));
                     
+                    const innersiema1 = new Siema({
+                     selector: '.innersiema1',
+                     easing: 'cubic-bezier(.4,0,.6,1)',
+                     duration: 700,
+                     loop: true,
+                    });
+                    setInterval(() => innersiema1.next(), 4000)
+                    const innerprev = document.querySelector('.innerprev1');
+                    const innernext = document.querySelector('.innernext1');
+
+                    innerprev.addEventListener('click', () => myInnerSiema.prev());
+                    innernext.addEventListener('click', () => myInnerSiema.next());
               </script>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </main>
             <br>
             <br>
             <br>
             <br>
             <br>
-            <footer>
-                <div id="contact_us" class="bg-1">
-                    <div class="container-fluid">
-                        <br />
-                        <div class="row">
-                            <div class="col-md-3 ">
-                                <a href="#home" class style="height: 40px"><img
-                                        class="bottomLogo "
-                                        src="assets/img/Carousel/C_logo.png" /></a>
-                            </div>
-                            <div class="col-md-6  text-center">
-                                <p class="textcolor slogon">
-                                    "The Next Creative Revolution"
-                                </p>
-                                <p class="textcolor">
-                                    For any comments or questions that concern
-                                    Crevolution,
-                                </p>
-                                <p class="textcolor">please
-                                    contact us at
-                                    <a
-                                        href="mailto:crevo.robotics@gmail.com">crevo.robotics@gmail.com</a></p>
-
-                            </div>
-                            <div class="col-md-3 text-center">
-                                <a class="bottomA" target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://instagram.com/crevolution.robotics?utm_source=ig_profile_share&igshid=jjtwtzz6dwv7"><img
-                                        class="bottomPR"
-                                        src="assets/img/Social Media/Instagram.png"></a>
-                                <a class="bottomA" target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://www.youtube.com/user/Crevolution2851">
-                                    <img class="bottomPR"
-                                        src="assets/img/Social Media/Youtube.png">
-                                </a>
-                                <br>
-                                <br>
-                                <a class="bottomA" target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://www.facebook.com/Crevolution2851/"><img
-                                        class="bottomPR"
-                                        src="assets/img/Social Media/Facebook.png"></a>
-                                <a class="bottomA" target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://twitter.com/Crevolution2851">
-                                    <img class="bottomPR"
-                                        src="assets/img/Social Media/Twitter.png">
-                                </a>
-                            </div>
+        </main>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <div id="contact_us" class="bg-1">
+                <div class="container-fluid">
+                    <br />
+                    <div class="row">
+                        <div class="col-md-3 ">
+                            <a href="#home" class style="height: 40px"><img
+                                    class="bottomLogo "
+                                    src="assets/img/Carousel/C_logo.png" /></a>
                         </div>
-                        <br>
-                    </div>
-                </div>
-            </footer>
+                        <div class="col-md-6  text-center">
+                            <p class="textcolor slogon">
+                                "The Next Creative Revolution"
+                            </p>
+                            <p class="textcolor">
+                                For any comments or questions that concern
+                                Crevolution,
+                            </p>
+                            <p class="textcolor">please
+                                contact us at
+                                <a
+                                    href="mailto:crevo.robotics@gmail.com">crevo.robotics@gmail.com</a></p>
 
-            <script>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <a class="bottomA" target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://instagram.com/crevolution.robotics?utm_source=ig_profile_share&igshid=jjtwtzz6dwv7"><img
+                                    class="bottomPR"
+                                    src="assets/img/Social Media/Instagram.png"></a>
+                            <a class="bottomA" target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.youtube.com/user/Crevolution2851">
+                                <img class="bottomPR"
+                                    src="assets/img/Social Media/Youtube.png">
+                            </a>
+                            <br>
+                            <br>
+                            <a class="bottomA" target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.facebook.com/Crevolution2851/"><img
+                                    class="bottomPR"
+                                    src="assets/img/Social Media/Facebook.png"></a>
+                            <a class="bottomA" target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://twitter.com/Crevolution2851">
+                                <img class="bottomPR"
+                                    src="assets/img/Social Media/Twitter.png">
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </footer>
+
+        <script>
 $(document).ready(function(){
   // Initialize Tooltip
   $('[data-toggle="tooltip"]').tooltip();
@@ -284,7 +307,7 @@ $(document).ready(function(){
   });
 })
 </script>
-            <!--
+        <!--
     ----------------------------------------------------------------Move in a bit
     <div class="row">
                                 <div class="col-md-6 leftpart">
@@ -337,5 +360,5 @@ $(document).ready(function(){
                                 </div>
                             </div>
 -->
-        </body>
-    </html>
+    </body>
+</html>
