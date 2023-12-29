@@ -17,7 +17,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat"
             rel="stylesheet" type="text/css">
         <link href="css/robot.css" rel="stylesheet" type="text/css">
-
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     </head>
     <body>
         <script src="siema.min.js"></script>
@@ -98,7 +99,15 @@
             <h2 class="textcolor text-center">Thank you for your patience.</h2>
             <br>
             <br>
-            <div class="outerSiema">
+            <div class="d-md-none">
+                <h2 class="textcolor text-center">Currently adding moblie
+                    support.</h2>
+                <h2 class="textcolor text-center">Please view on a bigger
+                    screen.</h2>
+                <br>
+                <br>
+            </div>
+            <div class="outerSiema d-none d-md-block">
                 <div>
                     <div class="row">
                         <div class="col-md-5 leftpart">
@@ -127,6 +136,16 @@
                                     the cones on to the nodes at all the
                                     levels.</li>
                             </ul>
+                            <br>
+                            <a target="_blank" rel="noopener noreferrer"
+                                class="ccbutton codea"
+                                href="https://github.com/CrevolutionRoboticsProgramming/2023RobotCode">Code
+                                <i class="bi bi-code-slash"></i></a>
+                            <a target="_blank" rel="noopener noreferrer"
+                                class="ccbutton cada"
+                                href="https://cad.onshape.com/documents/077d15af7435c90746f08652/w/d76e741b258a055f9da0e934">CAD
+                                <i class="bi bi-gear"></i></a>
+
                         </div>
                         <div class="col-md-7 rightpart">
                             <div class="row imagerow text-center">
@@ -137,14 +156,18 @@
                                         alt="Robot">
                                 </div>
                                 <div class="col-md-6 ">
-                                    <div class="innersa">
+                                    <div class="innersa innersiema">
                                         <div><img
                                                 src="assets/img/Robots/2023-2.jpg"
-                                                class="d-block sideimage "
+                                                class="d-block insideimage "
                                                 alt="Robot"></div>
                                         <div><img
                                                 src="assets/img/Robots/2023-3.png"
-                                                class="d-block sideimage "
+                                                class="d-block insideimage "
+                                                alt="Robot"></div>
+                                        <div><img
+                                                src="assets/img/Robots/2023-4.jpg"
+                                                class="d-block insideimage "
                                                 alt="Robot"></div>
                                     </div>
 
@@ -200,18 +223,18 @@
                                         alt="Robot">
                                 </div>
                                 <div class="col-md-6 ">
-                                    <div class="innersb">
+                                    <div class="innersb innersiema">
                                         <div><img
                                                 src="assets/img/Robots/2022-3.jpg"
-                                                class="d-block sideimage "
+                                                class="d-block insideimage "
                                                 alt="Robot"></div>
                                         <div><img
                                                 src="assets/img/Robots/2022-2.jpg"
-                                                class="d-block sideimage "
+                                                class="d-block insideimage "
                                                 alt="Robot"></div>
                                         <div><img
                                                 src="assets/img/Robots/2022-4.jpg"
-                                                class="d-block sideimage "
+                                                class="d-block insideimage "
                                                 alt="Robot"></div>
 
                                     </div>
@@ -239,14 +262,166 @@
                     </div>
 
                 </div>
+                <div>
+                    <div class="row">
+                        <div class="col-md-5 leftpart">
+                            <h1> 2020-2021: Aegis</h1>
+                            <br>
+                            <h3>Quick Facts:</h3>
+                            <ul>
+                                <li>Weight: 125lbs</li>
+                                <li>Size: 29" L x 29" W x 28" H </li>
+                                <li>Top speed: 6 and 13 ft/s</li>
+                                <li>Drive train: West Coast ball shifting
+                                    drive</li>
+                                <li>Status: Disassembled</li>
+                            </ul>
+                            <br>
+                            <h3>Other Information</h3>
+                            <ul>
+                                <li>Intake that can pick up cones and
+                                    cubes in any orientation.</li>
+                                <li>The intake can also shoot cubes to
+                                    the different levels.</li>
+                                <li>As a very low center of gravity to
+                                    reduce the chance of tipping over
+                                    and aid in balancing.</li>
+                                <li>Fast elevator with a claw to drop
+                                    the cones on to the nodes at all the
+                                    levels.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-7 rightpart">
+                            <div class="row imagerow text-center">
+                                <div class="col-md-6 ">
+                                    <img
+                                        src="assets/img/Robots/2020-1.jpg"
+                                        class="d-block sideimage "
+                                        alt="Robot">
+                                </div>
+                                <div class="col-md-6 ">
+                                    <div class="innersc innersiema">
+                                        <div><img
+                                                src="assets/img/Robots/2020-3.jpeg"
+                                                class="d-block insideimage "
+                                                alt="Robot"></div>
+                                        <div><img
+                                                src="assets/img/Robots/2020-2.jpg"
+                                                class="d-block insideimage "
+                                                alt="Robot"></div>
+
+                                    </div>
+                                    <script>
+                                        const innerc = new Siema({
+                                                            selector: '.innersc',
+                                                            duration: 1000,
+                                                            easing: 'cubic-bezier(.5,0,.5,1)',
+                                                            loop: true,
+                                                        });
+                                                        
+                                                        setInterval(() => innerc.next(), 3500)
+                                                  </script>
+                                </div>
+                            </div>
+                            <br>
+                            <iframe width="100%" height="315"
+                                src="https://www.youtube.com/embed/L5DYPoAKwA0?si=0teDDGGDdm5HIByf"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-md-5 leftpart">
+                            <h1> 2019: Asteria </h1>
+                            <br>
+                            <h3>Quick Facts:</h3>
+                            <ul>
+                                <li>Weight: 125lbs</li>
+                                <li>Size: 33" L x 26" W x 48" H </li>
+                                <li>Top speed: 6 and 11 ft/s</li>
+                                <li>Drive train: Colson West Coast ball shifting
+                                    drive</li>
+                                <li>Status: In Service</li>
+                            </ul>
+                            <br>
+                            <h3>Other Information</h3>
+                            <ul>
+                                <li>The drivetrain is 8 wheels drive with 2
+                                    speed gearboxes power by 6 mini-CIMS.</li>
+                                <li>The intake can also shoot cubes to
+                                    the different levels.</li>
+                                <li>As a very low center of gravity to
+                                    reduce the chance of tipping over
+                                    and aid in balancing.</li>
+                                <li>Fast elevator with a claw to drop
+                                    the cones on to the nodes at all the
+                                    levels.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-7 rightpart">
+                            <div class="row imagerow text-center">
+                                <div class="col-md-6 ">
+                                    <img
+                                        src="assets/img/Robots/2019-1.png"
+                                        class="d-block sideimage "
+                                        alt="Robot">
+                                </div>
+                                <div class="col-md-6 ">
+                                    <div class="innersd innersiema">
+                                        <div><img
+                                                src="assets/img/Robots/2019-2.png"
+                                                class="d-block insideimage "
+                                                alt="Robot"></div>
+                                        <div><img
+                                                src="assets/img/Robots/2019-3.png"
+                                                class="d-block insideimage "
+                                                alt="Robot"></div>
+                                        <div><img
+                                                src="assets/img/Robots/2019-4.png"
+                                                class="d-block insideimage "
+                                                alt="Robot"></div>
+
+                                    </div>
+                                    <script>
+                                        const innerd = new Siema({
+                                                            selector: '.innersd',
+                                                            duration: 1000,
+                                                            easing: 'cubic-bezier(.5,0,.5,1)',
+                                                            loop: true,
+                                                        });
+                                                        
+                                                        setInterval(() => innerd.next(), 3500)
+                                                  </script>
+                                </div>
+                            </div>
+                            <br>
+                            <iframe width="100%S" height="315"
+                                src="https://www.youtube.com/embed/Fx76lxYBYtg?si=bxluLIKTAOAqBNXU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
-            <button class="carousel-control-prev prev" type="button"
+            <button class="carousel-control-prev prev d-none d-md-block"
+                type="button"
                 data-bs-target="#carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon"
                     aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next next" type="button"
+            <button class="carousel-control-next next d-none d-md-block"
+                type="button"
                 data-bs-target="#carousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon"
                     aria-hidden="true"></span>
