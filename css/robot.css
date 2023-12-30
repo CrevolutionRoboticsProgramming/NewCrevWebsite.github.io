@@ -114,12 +114,12 @@ iframe{
 }
 .imagerow{
   height: 315px;
-  padding: 3vh 0 0 0; 
+  padding: 2vh 0 2vh 0; 
 }
 .sideimage{  
   border-radius: 15px;
   max-width: 100%;
-  
+  max-height: 300px;
 }
 .prev{
   padding: 400px 0 0 0;   
@@ -130,12 +130,14 @@ iframe{
   width: 8%;    
 }
 .innersiema{
-  max-height: 315px;
+  max-width: 400px;
   border-radius: 15px; 
+  text-align: left;
 }
 .insideimage{
   max-width: 100%;
   padding: 0 1px 0 1px;
+  max-height: 300px;
 }
 .ccbutton{
   color: white;
