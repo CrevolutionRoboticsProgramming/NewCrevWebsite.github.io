@@ -1,7 +1,7 @@
 # TODO
 <!--
 BUGS or problems to do after uploading new website
-
+    - Optimize the images
     - Fix drop down corners on leads part on moblie by using css options.
     - Fix Nav bar in moblie
     - Fix Top photos
