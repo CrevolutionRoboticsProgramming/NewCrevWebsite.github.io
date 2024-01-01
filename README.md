@@ -1,6 +1,8 @@
 # TODO
 <!--
 BUGS or problems to do after uploading new website
+
+    - Lite youtube to lazyload
     - Optimize the images
     - Fix drop down corners on leads part on moblie by using css options.
     - Fix Nav bar in moblie
@@ -12,6 +14,8 @@ BUGS or problems to do after uploading new website
     - Add sponsors
     - Have Nav bar color when at sections
     - ^Maybe add small bar or smt under the text at nav^ 
+    -
+    - Fix the robot page carousel order. Should go 2009=A 2010=B etc.
 
 
 

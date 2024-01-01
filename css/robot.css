@@ -104,9 +104,7 @@ nav {
 .rightpart{
     padding: 0 8% 0 0 ;
 }
-iframe{
-    border-radius: 15px;
-}
+
 .outerSiema{
   background-color: #222227;
   padding: 20px 0 20px 0;
@@ -154,4 +152,9 @@ iframe{
 }
 .no{
   background-color: #444459;
+}
+lite-youtube{
+  height: 315px;
+  width: 100%;
+  border-radius: 15px;
 }
