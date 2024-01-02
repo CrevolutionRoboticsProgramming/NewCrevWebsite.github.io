@@ -2,10 +2,8 @@
 <!--
 BUGS or problems to do after uploading new website
 
-    - Lite youtube to lazyload
-    - Optimize the images
     - Fix drop down corners on leads part on moblie by using css options.
-    - Fix Nav bar in moblie
+    - Fix Nav bar in moblie click goes away
     - Fix Top photos
     - Fix Robot tab in mobile
     - Update contact css

@@ -53,10 +53,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav text-center">
           <li class="nav-item active">
-            <a href="index.html#home" class="nav-link active"> HOME </a>
+            <a href="index.html#home" class="nav-link active" > HOME </a>
           </li>
-          <li class="nav-item active">
-            <a href="index.html#about" class="nav-link active"> ABOUT US </a>
+          <li class="nav-item active" >
+            <a href="index.html#about" class="nav-link active" > ABOUT US </a>
           </li>
           <li class="nav-item active">
             <a href="index.html#current_events" class="nav-link active">
@@ -88,7 +88,14 @@
         </ul>
       </div>
     </nav>
-
+<script>
+  const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarNav')
+const bsCollapse = bootstrap.Collapse.getOrCreateInstance(menuToggle, {toggle: false})
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+})
+  </script>
     <!-- PIX CAROUSEL -->
     <div id="home" class="container-fluid text-center bg-2">
       <div id="carouselExampleInterval" class="carousel slide"
