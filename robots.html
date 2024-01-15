@@ -96,6 +96,18 @@
                 </ul>
             </div>
         </nav>
+        <script>
+            const navLinks = document.querySelectorAll('.nav-item')
+          const menuToggle = document.getElementById('navbarNav')
+          const bsCollapse = bootstrap.Collapse.getOrCreateInstance(menuToggle, {toggle: false})
+          navLinks.forEach((l) => { l.addEventListener('click', function execute(){
+           if(window.innerWidth <= 992) {
+            bsCollapse.toggle()
+             }
+        
+        })
+          })
+          </script>
         <main class="textcolor">
             <br>
             <br>
